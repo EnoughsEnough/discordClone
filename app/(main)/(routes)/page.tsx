@@ -1,10 +1,14 @@
-import { Button } from '@/components/ui/button'
+import React from 'react'
+import { ModeToggle } from '@/components/mode-toggle'
+import { UserButton } from '@clerk/nextjs'
 
-export default function Home() {
+const Home = () => {
    return (
-      <div className="flex flex-col">
-         <p className="text-xl text-blue-600 text-center">Hello World!</p>
-         <Button>Click me</Button>
+      <div>
+         <UserButton />
+         <ModeToggle />
       </div>
    )
 }
+
+export default Home
