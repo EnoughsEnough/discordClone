@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Stack
 
-Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL
+Next.js 13, React, Typescipt, Socket.io, Prisma, Tailwind, MySQL
 
 ## Getting Started
 
